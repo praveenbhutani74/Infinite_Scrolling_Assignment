@@ -1,0 +1,66 @@
+.UsersList{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.user img{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.home-screen {
+    padding: 3% 10%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    font-size: 0.9rem;
+    margin: 3% 0;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.logout-btn-container {
+    width: 100%;
+}
+
+.logout-btn-container button {
+    float: right;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3;
+    /* Light grey */
+    border-top: 10px solid #383636;
+    /* Blue */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+    margin-top: -60px;
+}
+
+.spinner-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+@media only screen and (max-width: 320px) {
+    .user {
+        font-size: 0.5rem;
+    }
+    
+}

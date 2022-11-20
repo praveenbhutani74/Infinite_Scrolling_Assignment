@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Open+Sans&display=swap");
+
+.loginInner {
+    background: #244bc5;
+    background-image: url("../../assests/Images/BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif !important;
+    margin: 0%;
+    padding: 0%;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+
+.inputWrapper {
+    width: 300px;
+}
+
+.inputWrapper input,
+.inputWrapper button {
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+    height: 45px;
+}
+
+.inputWrapper input {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+}
+
+.inputWrapper button {
+    margin-top: 25px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    color: #2148c0;
+    font-size: 16px;
+}
+
+.loginInner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.inputWrapper input:focus-visible {
+    outline: 0px !important;
+}
+
+.inputWrapper .inputInner {
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.inputWrapper .inputInner .userIcon {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+
+
+.loginLogo {
+    text-align: center;
+    /* margin-bottom: 70px; */
+    height: 5rem;
+    width: 5rem;
+}
+
+.Image1{
+    height: 15rem;
+    margin-bottom: 20px;
+ padding-bottom: 20px;   
+}
